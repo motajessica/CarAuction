@@ -6,9 +6,8 @@ function Footer() {
   const year = new Date().getFullYear()
   return (
     <footer>
-      <div class="footer w-100 text-center bg-color pt-4 pb-3">
-        
-        <footer>Recipes App{year} </footer>
+      <div class="footer w-100 text-center pt-3">
+        <footer>Jess' Recipes App © {year} </footer>
       </div>
   </footer>
   )
