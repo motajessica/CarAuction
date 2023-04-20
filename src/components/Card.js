@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 
-function Cards ({imageSource}) {
+function Card ({imageSource}) {
   return (
     <div className="card m-2">
       <img src={`/images/${imageSource}.jpg`} alt='...' className="card-img-top"/>
@@ -13,4 +13,4 @@ function Cards ({imageSource}) {
     </div>
   )
 }
-export default Cards;
+export default Card;

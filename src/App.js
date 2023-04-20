@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
-import Cards from "./components/Cards.js";
+import Cards from "./components/Card.js";
 import Search from "./components/Search.js"
 import "./App.css";
 import React from 'react';
