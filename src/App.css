@@ -6,12 +6,10 @@ body{
   text-align: center;
 }
 
-
 html {
   min-height: 1000px;
   font-family: 'helvetica neue';
 }
-
 
 header {
   background-color: #f5ba13;
@@ -31,22 +29,6 @@ p {
   padding: 20px;
   font-weight: 200;
   color: #00204a;
-}
-
-button {
-  min-height: 20px;
-
-  border-radius: 50%;
-  border-color: transparent;
-  /* background-color: #f5ba13; */
-  color: #fff;
-  font-size: 20px;
-  padding-bottom: 6px;
-  border-width: 0;
-}
-
-button:hover{
-  color: #b9b0b0;
 }
 
 .icons {
@@ -79,12 +61,22 @@ button:hover{
   color: #61dafb;
 }
 
+.link {
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .card {
   width: 18rem;
 }
 
 .card-img-top {
-  padding-left: 50%;
+  
+}
+
+.card-header {
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 footer {

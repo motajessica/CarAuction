@@ -24,9 +24,8 @@ const App = () => {
 
     <div className="container">
       <Cards />
-      <Cards />
-      <Cards />
-    
+     
+
     </div>
       
     <div className="footer">
