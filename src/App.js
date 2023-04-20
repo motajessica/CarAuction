@@ -15,7 +15,7 @@ const App = () => {
     </div>
 
       <div className="container">
-        <h1>Recipes App</h1>
+        <h1>My Recipes</h1>
       </div>
 
       <div className="container">

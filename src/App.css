@@ -71,6 +71,10 @@ button:hover{
   color: white;
 }
 
+.nav-brand{
+  font-weight: bold;
+}
+
 .App-link {
   color: #61dafb;
 }
