@@ -11,7 +11,7 @@ function Search () {
         placeholder='Search'  
         onChange={() => {}}
       />
-      <button className="btn my-2 my-sm-0 btn-sm btn-warning">Ok</button>
+      <button type="submit" className="btn my-2 my-sm-0 btn-sm btn-warning">Ok</button>
     </div> 
   )
 }

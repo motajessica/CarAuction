@@ -23,9 +23,13 @@ const App = () => {
       </div>
 
     <div className="container">
-      <Cards />
-     
-
+      <div className="d-flex flex-wrap justify-content-center">
+        {
+          ["quesadilla", "burger", "lasagna", "paella", "cake", "meal"].map(function(item) {
+            return <Cards imageSource={item}/>
+          })
+        }
+      </div>
     </div>
       
     <div className="footer">
