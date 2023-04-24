@@ -1,8 +1,9 @@
-import { useEffect } from 'react';
+
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
 import Cards from "./components/Card.js";
-import Search from "./components/Search.js"
+import Search from "./components/Search.js";
+import Hero from "./components/Hero.js";
 import "./App.css";
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,11 +13,12 @@ const App = () => {
    <div className="App">
     <div className="header">
       <Header />
+      <Hero />
     </div>
 
-      <div className="container">
-        <h1>My Recipes</h1>
-      </div>
+      {/* <div className="container">
+      <Hero />
+      </div> */}
 
       <div className="container">
         <Search /> 

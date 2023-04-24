@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Header() {
   return (
-    <Navbar expand="sm" className="bg-warning px-4 py-2 mb-5">
+    <Navbar expand="lg" className="bg-warning px-4 py-2 mb-5">
       <Navbar.Brand className="nav-brand" href="/">Recipes App</Navbar.Brand>
       <Navbar.Toggle aria-controls="nav" />
       <Navbar.Collapse id="nav">
@@ -12,6 +12,7 @@ function Header() {
           <Nav.Link href="/lists">HOME</Nav.Link>
           <Nav.Link href="/about">ABOUT US</Nav.Link>
           <Nav.Link href="/contact">CONTACT US</Nav.Link>
+          <Nav.Link class="item-login" href="/contact">LOGIN</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
