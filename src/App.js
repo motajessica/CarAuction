@@ -2,7 +2,7 @@
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
 import Cards from "./components/Card.js";
-import Search from "./components/Search.js";
+// import Search from "./components/Search.js";
 import Hero from "./components/Hero.js";
 import "./App.css";
 import React from 'react';
@@ -21,7 +21,7 @@ const App = () => {
       </div> */}
 
       <div className="container">
-        <Search /> 
+        
       </div>
 
     <div className="container">

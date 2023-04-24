@@ -55,8 +55,10 @@ p {
 
 }
 
-.hero-img {
-  width: 20%;  
+.img-hero {
+  width: 100%;  
+  size: 20%;
+  opacity: 0.5;
 }
 
 .App-link {
