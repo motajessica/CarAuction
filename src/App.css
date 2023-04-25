@@ -55,9 +55,15 @@ p {
 
 }
 
-.img-hero {
-  width: 100%;  
-  size: 20%;
+.hero-img {
+  width: auto;
+  
+
+}
+
+.hero-title {
+  color: #F9F5EB;
+  font-size: 3rem;
 
 }
 

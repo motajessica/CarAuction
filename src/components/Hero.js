@@ -3,12 +3,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function Hero() {
   return (
-    <div
-      className="img-hero mb-5 p-5 text-center bg-image"
-      style={{ backgroundImage: "url('/images/bread-1.jpg')", height: 500 }}>
+  
+  <div
+    className="hero-img mb-5 p-5 text-center bg-image"
+    style={{ backgroundImage: "url('/images/bread.jpg')", height: 500 }}>
+    
+
       <div className="row py-5">
         <div className="col-lg-6 mb-5">
-          <h2 className="text-white mb-3">
+          <h2 className="hero-title mb-3">
             Unleash your inner chef with our amazing & simple recipes.
           </h2>
           <button
@@ -24,9 +27,8 @@ function Hero() {
         </div>
        
         <div className="col-lg-6 position-relative"></div>
-        
       </div>
-    </div>
+      </div>
   );
 }
 
