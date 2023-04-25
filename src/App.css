@@ -51,9 +51,9 @@ html {
 
 .hero-title {
   color: #F9F5EB;
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-shadow: 2px 2px black;
-  text-align: left;
+  text-align: center;
 }
 
 .hero-subtitle{
@@ -61,7 +61,6 @@ html {
   text-shadow: 2px 2px black;
   text-align: center;
   font-size: 1rem;
-  margin-top: 4.5rem;
   font-weight: 900;
 }
 

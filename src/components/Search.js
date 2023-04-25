@@ -12,7 +12,7 @@ function Search () {
           aria-label="Search"
           style={{maxWidth: 300}}  
           />
-        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Ok</button>
+        <button class="btn btn-warning my-2 my-sm-0" type="submit">Ok</button>
       </form>
     </div>
   )
