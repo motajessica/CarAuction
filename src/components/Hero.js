@@ -6,11 +6,10 @@ function Hero() {
   
   <div
     className="hero-img mb-5 p-5 text-center bg-image"
-    style={{ backgroundImage: "url('/images/bread.jpg')", height: 500 }}>
-    
-
-      <div className="row py-5">
-        <div className="col-lg-6 mb-5">
+    style={{ backgroundImage: "url('/images/bread.jpg')", height: 500 }}
+    >
+      <div className="py-5 mask">
+        <div className="mb-5">
           <h2 className="hero-title mb-3">
             Unleash your inner chef with our amazing & simple recipes.
           </h2>
