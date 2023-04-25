@@ -8,7 +8,7 @@ function Search () {
         <input 
           class="form-control mx-2"
           type="search"
-          placeholder="Search"
+          placeholder="Search Recipe"
           aria-label="Search"
           style={{maxWidth: 300}}  
           />

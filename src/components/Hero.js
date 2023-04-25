@@ -14,18 +14,18 @@ function Hero() {
           Unleash your inner Chef with our delicious & simple recipes.
         </h2>
         <div className="hero-subtitle">
-          <h5 className="py-3">
+          <h5 className="mt-5">
             Download the app for free.
           </h5>
           <button
             type="button"
-            class="btn btn-dark btn-md download-button mb-3"
+            class="btn btn-dark btn-md download-button me-1"
             >
             <FontAwesomeIcon icon={faGooglePlay} /> Download
           </button>
           <button
             type="button"
-            class="btn btn-outline-light btn-md download-button mb-3"
+            class="btn btn-outline-light btn-md download-button"
             >
             <FontAwesomeIcon icon={faApple} className="" /> Download
           </button>          
