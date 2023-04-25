@@ -5,9 +5,9 @@ function Hero() {
   return (
     <div
       className="img-hero mb-5 p-5 text-center bg-image"
-      style={{ backgroundImage: "url('/images/cooking-1.jpg')", height: 400 }}
+      style={{ backgroundImage: "url('/images/bread-1.jpg')", height: 500 }}
     >
-      <div className="row">
+      <div className="row py-5">
         <div className="col-lg-6 mb-5">
           <h2 className="text-white mb-3">
             Unleash your inner chef with our amazing & simple recipes.
@@ -28,17 +28,6 @@ function Hero() {
 
         <div className="col-lg-6 position-relative"></div>
 
-        <div className="search mb-5">
-          <input
-            className="mb-2 mx-2 mr-sm-2 "
-            type="search"
-            placeholder="Search"
-            onChange={() => {}}
-          />
-          <button type="submit" className="btn my-2 my-sm-0 btn-sm btn-warning">
-            Ok
-          </button>
-        </div>
       </div>
     </div>
   );

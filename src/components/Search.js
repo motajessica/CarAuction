@@ -6,7 +6,7 @@ function Search () {
   return (
     <div className="search">
       <input 
-        className="mb-2 mx-2 mr-sm-2 "
+        className="mb-5 mx-2 mr-sm-2 "
         type="search"
         placeholder='Search'  
         onChange={() => {}}
