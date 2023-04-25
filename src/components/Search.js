@@ -1,7 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 
-
 function Search () {
   return (
     <div className='my-4'>

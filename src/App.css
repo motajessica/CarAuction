@@ -11,9 +11,7 @@ html {
   font-family: 'helvetica neue';
 }
 
-.navbar {
-  
-}
+/* NAVBAR */
 
 .nav-brand{
   font-weight: bold;
@@ -22,55 +20,14 @@ html {
 .item-login {
   font-weight: 400;
 }
+ 
+/* HERO */
 
 .hero-img {
   width: auto;
 }
 
-.hero-title {
-  color: #F9F5EB;
-  font-size: 3rem;
-  text-shadow: 2px 2px black;
-  text-align: left;
-}
-
-.hero-subtitle{
-  color: #F9F5EB;
-  text-shadow: 2px 2px black;
-  text-align: center;
-  font-size: 1rem;
-  margin-top: 4.5rem;
-  font-weight: 900;
-}
-
-
-
-.App-link {
-  color: #61dafb;
-}
-
-.link {
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.card {
-  width: 18rem;
-}
-
-.card-header {
-  font-size: 20px;
-  font-weight: bolder;
-}
-
-footer {
-  text-align: center;
-  font-size: 14px;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;
-}
-.mask {
+.hero-mask {
   position: absolute;
   top: 0;
   right: 0;
@@ -91,3 +48,48 @@ footer {
   background-size: cover;
   background-position: 50%;
 }
+
+.hero-title {
+  color: #F9F5EB;
+  font-size: 3rem;
+  text-shadow: 2px 2px black;
+  text-align: left;
+}
+
+.hero-subtitle{
+  color: #F9F5EB;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 4.5rem;
+  font-weight: 900;
+}
+
+/* CARDS */
+
+
+.card {
+  width: 18rem;
+}
+
+.card-header {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.card-link {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+

@@ -3,12 +3,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function Hero() {
   return (
-  
   <div
     className="hero-img mb-5 p-5 text-center bg-image"
     style={{ backgroundImage: "url('/images/bread.jpg')", height: 500 }}
     >
-      <div className="py-5 mask">
+      <div className="py-5 hero-mask">
         <div className="mb-5">
           <h2 className="hero-title container">
             Unleash your inner Chef with our delicious & simple recipes.
@@ -32,7 +31,13 @@ function Hero() {
        
         <div className="col-lg-6 position-relative"></div>
       </div>
+
+      
+
+
       </div>
+
+
   );
 }
 

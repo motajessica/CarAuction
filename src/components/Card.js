@@ -8,7 +8,7 @@ function Card ({imageSource}) {
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-        <a href="/" className="link">Go somewhere</a>
+        <a href="/" className="card-link">Go somewhere</a>
       </div>
     </div>
   )
