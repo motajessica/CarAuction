@@ -16,13 +16,13 @@ const App = () => {
       <Hero />
     </div>
 
-      {/* <div className="container">
-      <Hero />
-      </div> */}
+    {/* <div className="container">
+    <Hero />
+    </div> */}
 
-      <div className="container">
-        <Search />
-      </div>
+    <div className="container">
+      <Search />
+    </div>
 
     <div className="container">
       <div className="d-flex flex-wrap justify-content-center">
