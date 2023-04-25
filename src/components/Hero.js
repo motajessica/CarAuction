@@ -10,19 +10,24 @@ function Hero() {
     >
       <div className="py-5 mask">
         <div className="mb-5">
-          <h2 className="hero-title mb-3">
-            Unleash your inner chef with our amazing & simple recipes.
+          <h2 className="hero-title container">
+            Unleash your inner Chef with our delicious & simple recipes.
           </h2>
-          <button
-            type="button"
-            class="btn btn-dark btn-lg download-button mb-3">
-            <i class="fab fa-apple me-1"></i>Download
-          </button>
-          <button
-            type="button"
-            class="btn btn-outline-light btn-lg download-button mb-3">
-            <i class="fab fa-google-play me-1"></i>Download
-          </button>
+          <div className="hero-subtitle container ">
+            <h5 className="py-3">
+              Download our app for free.
+            </h5>
+            <button
+              type="button"
+              class="btn btn-dark btn-md download-button mb-3">
+              <i class="fab fa-apple me-1"></i>Download
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-light btn-md download-button mb-3">
+              <i class="fab fa-google-play me-1"></i>Download
+            </button>
+          </div>
         </div>
        
         <div className="col-lg-6 position-relative"></div>
