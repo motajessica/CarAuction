@@ -15,7 +15,7 @@ function Header() {
           <Nav.Link href="/lists">HOME</Nav.Link>
           <Nav.Link href="/about">ABOUT US</Nav.Link>
           <Nav.Link href="/contact">CONTACT US</Nav.Link>
-          <Nav.Link className="item-login btn btn-outline-dark" href="/login">LOGIN</Nav.Link>
+          <Nav.Link className="item-login" href="/login">LOGIN</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
