@@ -23,7 +23,7 @@ html {
 }
 
 .item-login {
-  font-weight: 400;
+  font-weight: 800;
 }
  
 /* HERO */
@@ -58,13 +58,13 @@ html {
   color: #F9F5EB;
   font-size: 2.5rem;
   text-shadow: 2px 2px black;
-  text-align: center;
+  text-align: left;
 }
 
 .hero-subtitle{
   color: #F9F5EB;
   text-shadow: 2px 2px black;
-  text-align: center;
+  text-align: left;
   font-size: 1rem;
   font-weight: 900;
 }
