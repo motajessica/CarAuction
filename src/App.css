@@ -1,10 +1,3 @@
-body{
-  background-color: #F9F5EB ;
-}
-
-.App {
-  text-align: center;
-}
 
 html {
   min-height: 1000px;
@@ -18,16 +11,7 @@ html {
   margin-right: 0.6rem;
 }
 
-.nav-brand{
-  font-weight: bold;
-}
-
-.item-login {
-  font-weight: 800;
-}
- 
 /* HERO */
-
 .hero-img {
   width: auto;
 }
@@ -70,29 +54,7 @@ html {
 }
 
 /* CARDS */
-
-
 .card {
   width: 18rem;
 }
-
-.card-header {
-  font-size: 20px;
-  font-weight: bolder;
-}
-
-.card-link {
-  text-decoration: none;
-  font-weight: bold;
-}
-
-/* FOOTER */
-
-/* footer {
-  text-align: center;
-  font-size: 14px;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;
-} */
 
