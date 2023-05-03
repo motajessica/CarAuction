@@ -10,7 +10,6 @@ function Header() {
     <Navbar fixed="top" expand="lg" className="bg-light px-4 py-3">
       <Navbar.Brand className="fw-bolder" href="/">
       <img className="nav-logo" src="/images/logo.png" alt='...'/>
-        TURNERSCARS
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="nav" />
       <Navbar.Collapse id="nav">
@@ -70,7 +69,7 @@ function Header() {
               </NavDropdown.Item>
             </NavDropdown>
           
-          <Nav.Link className="fw-bold btn btn-outlined-light " href="/login">LOGIN</Nav.Link>
+          <Nav.Link className="fw-bold btn btn-outline-primary btn-sm " href="/login">Login</Nav.Link>
         </Nav>
 
       </Navbar.Collapse>
