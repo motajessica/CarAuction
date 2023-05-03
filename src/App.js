@@ -23,7 +23,7 @@ const App = () => {
 
       <div className="container">
         <div className="d-flex flex-wrap justify-content-center">
-          {["quesadilla", "burger", "lasagna", "paella", "cake", "meal", "quesadilla", "lasagna", "paella", "cake", "paella", "meal"].map(
+          {["suv", "coupe", "convertible", "coupe", "hatchback1", "van", "sedan1", "wagon", "suv", "suv", "suv", "suv"].map(
             function (item) {
               return <Cards imageSource={item} />;
             }
@@ -32,7 +32,7 @@ const App = () => {
       </div>
 
     
-    <div className="d-flex justify-content-end" style={{position: "fixed", bottom: 0, right: 1}}>
+    {/* <div className="d-flex justify-content-end" style={{position: "fixed", bottom: 0, right: 1}}>
       <iframe 
         title="Senna Chatbot"
         width="350" 
@@ -42,7 +42,7 @@ const App = () => {
 
         src="https://console.dialogflow.com/api-client/demo/embedded/dbc245c4-ce7e-412f-92dd-dc48156f0e22"
       />
-    </div>
+    </div> */}
       <div className="footer">
         <Footer />
       </div>

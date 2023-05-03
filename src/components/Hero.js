@@ -6,24 +6,13 @@ import ControlledCarousel from "../components/ControlledCarousel.js"
 
 function Hero() {
   return (
-  <div className="">
+  
     <div
-      className="hero-img mb-5 p-5 text-center bg-image"
-      style={{ backgroundImage: "url('/images/bread.jpg')", height: 700 }}
-      >
-        <div className="py-5 hero-mask d-flex flex-column justify-content-center gap">
-          <h2 className="hero-title container">
-            Turner Car
-          </h2>
-          <div className="hero-subtitle container">
-          </div>
-        </div>
-      </div>
-
-
-
-
-  </div>
+      className="hero-img mb-5 p-5 bg-image"
+      style={{ backgroundImage: "url('/images/tina.jpg')", height: 400 }}
+      > 
+    </div>
+  
   );
 }
 
