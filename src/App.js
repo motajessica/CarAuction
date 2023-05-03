@@ -3,6 +3,7 @@ import Footer from "./components/Footer.js";
 import Cards from "./components/Card.js";
 import Search from "./components/Search.js";
 import Hero from "./components/Hero.js";
+
 import "./App.css";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -14,9 +15,10 @@ const App = () => {
         <Header />
         <Hero />
       </div>
-
+      
       <div className="container">
         <Search />
+       
       </div>
 
       <div className="container">
