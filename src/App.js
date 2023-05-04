@@ -23,7 +23,7 @@ const App = () => {
 
       <div className="container">
         <div className="d-flex flex-wrap justify-content-center">
-          {["suv", "coupe", "convertible", "coupe", "hatchback1", "van", "sedan1", "wagon", "suv", "suv", "suv", "suv"].map(
+          {["suv", "coupe", "wagon", "utility", "van", "sedan1", "sedan", "convertible1", "suv", "suv", "coupe", "wagon"].map(
             function (item) {
               return <Cards imageSource={item} />;
             }
