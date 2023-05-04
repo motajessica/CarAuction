@@ -25,7 +25,7 @@ const App = () => {
       </div>
 
       <div className="container">
-        <div className="d-flex flex-wrap justify-content-envely">
+        <div className="d-flex flex-wrap justify-content-center">
           {["suv", "hatchback", "wagon", "utility", "coupe", "sedan1", "van", "convertible1", "suv", "suv", "coupe", "wagon"].map(
             function (item) {
               return <Cards carType={item} />;

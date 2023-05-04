@@ -14,15 +14,7 @@ function Header() {
       <Navbar.Toggle aria-controls="nav" />
       <Navbar.Collapse id="nav">
         <Nav className="ms-auto ms-auto mb-2 mb-lg-0">
-        <Form className="ms-5 me-2 d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Find a Car"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-dark btn-sm">Search</Button>
-        </Form>
+     
             {/* <Nav.Link href="/contact">CONTACT US</Nav.Link> */}
             <NavDropdown title="How to buy" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">How to buy</NavDropdown.Item>
