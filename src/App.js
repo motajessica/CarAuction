@@ -18,38 +18,45 @@ const App = () => {
       <div className="hero-background">
         <Hero />
       </div>
-      
+
       <div className="container">
         <Search />
-       
       </div>
 
       <div className="container">
         <div className="d-flex flex-wrap justify-content-center">
-          {["suv", "hatchback", "wagon", "utility", "coupe", "sedan1", "van", "convertible1", "suv", "suv", "coupe", "wagon"].map(
-            function (item) {
-              return <Cards carType={item} />;
-            }
-          )}
+          {[
+            "suv",
+            "hatchback",
+            "wagon",
+            "utility",
+            "coupe",
+            "sedan1",
+            "van",
+            "convertible1",
+            "suv",
+            "suv",
+            "coupe",
+            "wagon",
+          ].map(function (item) {
+            return <Cards carType={item} />;
+          })}
         </div>
       </div>
-
-    
-    <div className="d-flex justify-content-end" style={{position: "fixed", bottom: 0, right: 1}}>
-      <iframe 
-        title="Senna Chatbot"
-        width="350" 
-        height="430"
-        allow="microphone;"
-        expand="false"
-
-        src="https://console.dialogflow.com/api-client/demo/embedded/dbc245c4-ce7e-412f-92dd-dc48156f0e22"
-      />
-    </div>
+      <div
+        className="d-flex justify-content-end"
+        style={{ position: "fixed", bottom: 0, right: 1 }}
+      >
+        <df-messenger
+          chat-icon=""
+          chat-title="Senna"
+          agent-id="dbc245c4-ce7e-412f-92dd-dc48156f0e22"
+          language-code="en"
+        ></df-messenger>
+      </div>
       <div className="footer">
         <Footer />
       </div>
-      
     </div>
   );
 };
