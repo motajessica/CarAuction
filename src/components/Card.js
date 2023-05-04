@@ -1,14 +1,14 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 
-function Card ({imageSource}) {
+function Card ({carType}) {
   return (
 
   <div>
       <div className="card bg-light m-2">
-        <img src={`/images/${imageSource}.jpg`} alt='...' className="card-img-top" style={{height: "12rem"}}/>
+        <img src={`/images/${carType}.jpg`} alt='...' className="card-img-top" style={{height: "12rem"}}/>
         <div class="card-body">
-          <h4 class="card-title">Car Title</h4>
+          <h4 class="card-title">Lorem Ipsum</h4>
           <h6 class="card-text">Model:</h6>
           <h6 class="card-text">Year:</h6>
           <h6 class="card-text">Price:</h6>

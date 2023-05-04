@@ -9,7 +9,7 @@ function Hero() {
   
     <div
       className="hero-img mb-5 p-5 bg-image"
-      style={{ backgroundImage: "url('/images/tina.jpg')", height: 400 }}
+      style={{ backgroundImage: "url('/images/tina.jpg')", height: 400}}
       > 
     </div>
   

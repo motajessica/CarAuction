@@ -13,6 +13,9 @@ const App = () => {
     <div className="text-center">
       <div>
         <Header />
+      </div>
+
+      <div className="hero-background">
         <Hero />
       </div>
       
@@ -22,10 +25,10 @@ const App = () => {
       </div>
 
       <div className="container">
-        <div className="d-flex flex-wrap justify-content-center">
+        <div className="d-flex flex-wrap justify-content-envely">
           {["suv", "hatchback", "wagon", "utility", "coupe", "sedan1", "van", "convertible1", "suv", "suv", "coupe", "wagon"].map(
             function (item) {
-              return <Cards imageSource={item} />;
+              return <Cards carType={item} />;
             }
           )}
         </div>

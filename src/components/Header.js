@@ -57,7 +57,7 @@ function Header() {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Turners subscripti" id="basic-nav-dropdown">
+            <NavDropdown title="Turners subscription" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
