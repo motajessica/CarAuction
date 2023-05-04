@@ -34,7 +34,7 @@ const App = () => {
             "sedan1",
             "van",
             "convertible1",
-            "suv",
+            "utility",
             "suv",
             "coupe",
             "wagon",

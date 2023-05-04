@@ -1,13 +1,13 @@
 import React from 'react';
-import { Navbar, Nav, Container,Form, Button, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useState } from "react";
+
 
 
 function Header() {   
   return (
  
-    <Navbar fixed="top" expand="lg" className="bg-light px-4 py-3">
+    <Navbar  expand="lg" className="bg-light px-4 py-3">
       <Navbar.Brand className="fw-bolder" href="/">
       <img className="nav-logo" src="/images/logo.png" alt='...'/>
       </Navbar.Brand>

@@ -22,7 +22,6 @@ function Search () {
           </Dropdown.Menu>
         </Dropdown>
 
-
         <Form className="ms-5 d-flex " >
             <Form.Control
               type="search"
@@ -34,7 +33,6 @@ function Search () {
         </Form>
         
     </div>
-
 
   )
 }
