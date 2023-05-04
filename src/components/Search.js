@@ -1,19 +1,25 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
+import Dropdown from 'react-bootstrap/Dropdown';
 
 function Search () {
   return (
     <div className='my-4'>
-      {/* <form class="form-inline d-flex justify-content-center">
-        <input 
-          class="form-control mx-2"
-          type="search"
-          placeholder="Search Recipe"
-          aria-label="Search"
-          style={{maxWidth: 300}}  
-          />
-        <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Ok</button>
-      </form> */}
+    <Dropdown>
+      <Dropdown.Toggle variant="outline-dark" id="dropdown-basic">
+        Filter car by category
+      </Dropdown.Toggle>
+      <Dropdown.Menu>
+        <Dropdown.Item type="checkbox" href="#/action-1">Convertible</Dropdown.Item>
+        <Dropdown.Item href="#/action-2">Coupe</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Hatchback</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">sedan</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">SUV</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Utility</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Van</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Wagon</Dropdown.Item>
+      </Dropdown.Menu>
+    </Dropdown>
     </div>
   )
 }
