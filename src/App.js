@@ -3,6 +3,7 @@ import Footer from "./components/Footer.js";
 import Cards from "./components/Card.js";
 import Search from "./components/Search.js";
 import Hero from "./components/Hero.js";
+import UploadImage from "./components/UploadImage.js";
 
 import "./App.css";
 import React from "react";
@@ -22,6 +23,8 @@ const App = () => {
       <div className="container">
         <Search />
       </div>
+
+      <UploadImage />
 
       <div className="container">
         <div className="d-flex flex-wrap justify-content-center">
