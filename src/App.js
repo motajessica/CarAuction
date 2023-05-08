@@ -17,8 +17,7 @@ const App = () => {
       <div className="container">
         <Search />
         <UploadImage />
-      </div>
-      
+      </div>   
       <div className="container">
         <div className="d-flex flex-wrap justify-content-center">
           {[

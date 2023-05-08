@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import { useState, useEffect } from 'react';
 
 
@@ -18,11 +18,13 @@ function UploadImage() {
   }
 
   return (
-    <>
-      <input type="file" multiple accept="image/*" onChange={onImageChange} />
-      { imageURLs.map(imageSrc => <img src={imageSrc} />) }
-    
-    </>
+    <div className="container mb-2 text-center">
+      <>
+        <input type="file" multiple accept="image/*" onChange={onImageChange} />
+        { imageURLs.map(imageSrc => <img src={imageSrc} alt="..."/>) }
+      
+      </>
+    </div>
   );
 }
 
