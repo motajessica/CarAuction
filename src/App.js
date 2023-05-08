@@ -11,21 +11,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
   return (
-    <div className="text-center">
-      <div>
-        <Header />
-      </div>
-
-      <div className="hero-background">
-        <Hero />
-      </div>
-
+    <div>
+      <Header />
+      <Hero/>  
       <div className="container">
         <Search />
+        <UploadImage />
       </div>
-
-      <UploadImage />
-
+      
       <div className="container">
         <div className="d-flex flex-wrap justify-content-center">
           {[
