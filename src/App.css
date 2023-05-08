@@ -14,22 +14,18 @@ html {
 /* HERO */
 .hero-background {
   background: #0077c0;
-  background: linear-gradient(to right, #0077c0, #0072b7 70%);
   width: 100%;
   background-size: 100%;
-
 }
 
 .bg-image {
   background-position: right;
-  overflow: hidden;
   background-repeat: no-repeat;
   margin-top: 5rem;
-  background-size: contain;
 }
 
 .hero-img {
-  width: auto;
+
 }
 
 .hero-mask {
